@@ -23,7 +23,19 @@ return {
         "html",
         "css",
         "javascript",
+        "typescript",
       },
     },
+  },
+  {
+    "nvchad/volt",
+    lazy = true,
+  },
+  {
+    "nvchad/menu",
+    lazy = true,
+    config = function()
+      require "configs.voltmenu"
+    end,
   },
 }

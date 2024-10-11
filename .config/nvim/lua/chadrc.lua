@@ -34,4 +34,18 @@ M.colorify = {
   highlight = { hex = true, lspvars = true },
 }
 
+M.ui = {
+  cmp = {
+    format_colors = {
+      tailwind = true
+    }
+  }
+
+}
+
+M.nvdash = {
+  load_on_startup = true
+}
+
+
 return M
