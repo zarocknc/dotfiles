@@ -16,8 +16,8 @@ M.base46 = {
 
 M.term = {
   float = {
-    width = 1,
-    height = 0.9,
+    width = 0.9,
+    height = 0.8,
     row = 0,
     col = 0,
   },
@@ -37,15 +37,13 @@ M.colorify = {
 M.ui = {
   cmp = {
     format_colors = {
-      tailwind = true
-    }
-  }
-
+      tailwind = true,
+    },
+  },
 }
 
-M.nvdash = {
-  load_on_startup = true
-}
-
+-- M.nvdash = {
+--   load_on_startup = true,
+-- }
 
 return M
