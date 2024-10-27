@@ -26,6 +26,7 @@ local options = {
     -- html = { "prettier" },
     javascript = { "biome", "prettierd", stop_after_first = true },
     typescriptreact = { "prettierd", stop_after_first = true },
+    xml = { "xmlformatter" },
   },
   -- "prettier" -- slower than prettierd
 
